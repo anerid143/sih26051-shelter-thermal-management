@@ -1,0 +1,8 @@
+{
+  "name": "ShelterTherm - High-Altitude Passive Thermal Engineering System",
+  "description": "Parametric thermal engineering and passive solar modeling for extreme alpine habitats in Ladakh and high-altitude Himalayan sectors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
