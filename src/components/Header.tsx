@@ -1,4 +1,5 @@
 import React from 'react';
+import shelterThermLogo from '../sheltertherm-logo.png';
 import { UnitSystem, TimeStep, ProjectInfo } from '../types';
 
 interface HeaderProps {
@@ -50,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <img
             alt="ShelterTherm Logo"
-            className="h-7 w-auto object-contain shrink-0 group-hover:scale-105 transition-transform"
-            src="https://lh3.googleusercontent.com/aida/AEtjO1VSRgA-BjvA56bBAAyHA5us4UO4fQcnd_uNWCV0mQGTX5rTX_Rs8BNc-RQhuTijpedvXk5FKnCt4C110STFgMIj52WXJniJLThz-8cfns83XLetcp0cCx0XM9j3xVzfhev-TDtZJrIbE9UeefuoINkuXD2yzzquNA8QSLZbkhezgcgvhZG6NbN9kWUsBbJiy9Sq2KRYD0MgOGsgf2gKlnAxcNmdY2khb78xvUSUGK9DrZ6HVAp83jV7Xy0"
+            className="h-9 w-9 object-contain shrink-0 group-hover:scale-105 transition-transform"
+            src={shelterThermLogo}
           />
           <span className="font-headline-sm text-base text-slate-900 font-semibold tracking-tight hidden sm:inline group-hover:text-secondary transition-colors">
             ShelterTherm
